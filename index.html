@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <title>Emergency Service Directory</title>
+    <!-- daisyui and talwind css cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="py-6">
+      <div
+        class="flex flex-col gap-6 md:flex-row container mx-auto navbar bg-base-100"
+      >
+        <div class="flex-1">
+          <a class="btn btn-ghost text-xl">
+            <img class="w-14 h-14" src="./assets/logo.png" alt="" />
+            <h3 class="text-[#006747] text-left font-extrabold font-[Inter]">
+              Emergency <br />
+              Service
+            </h3>
+          </a>
+        </div>
+        <div class="flex items-center justify-end gap-5">
+          <div
+            class="w-32 h-14 flex gap-3 items-center justify-center bg-[#41FF6B1A] rounded-[50px]"
+          >
+            <span class="font-[Inter] text-base font-black">0</span>
+            <img class="w-8 h-8" src="./assets/heart.png" alt="" />
+          </div>
+          <div
+            class="w-32 h-14 flex gap-3 items-center justify-center bg-[#41FF6B1A] rounded-[50px]"
+          >
+            <span class="font-[Inter] text-base font-black">100</span>
+            <img class="w-8 h-8" src="./assets/coin.png" alt="" />
+          </div>
+          <div
+            class="w-32 h-14 flex gap-3 items-center justify-center bg-[#00A63E] text-white text-base font-semibold rounded-[50px]"
+          >
+            <span class="font-[Inter]">0</span>
+            <p>Copy</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header section end -->
+
+    <main>
+      <section
+        class="py-6 bg-linear-to-r from-[#013223] via-[#006747] to-[#013223] text-center text-white space-y-6 font-[Hind_Madurai]"
+      >
+        <img class="w-24 h-24 mx-auto" src="./assets/logo-dark.png" alt="" />
+        <h1 class="text-4xl font-bold">Emergency Service Directory</h1>
+        <p class="text-xl">
+          Government Emergency Services at Your Fingertip – A Project by
+          Government of the People’s Republic of Bangladesh
+        </p>
+      </section>
+      <section>
+        <div></div>
+        <aside></aside>
+      </section>
+    </main>
+  </body>
+</html>
