@@ -39,19 +39,25 @@
           <div
             class="w-32 h-14 flex gap-3 items-center justify-center bg-[#41FF6B1A] rounded-[50px]"
           >
-            <span class="font-[Inter] text-base font-black">0</span>
+            <span
+              id="header_heart_count"
+              class="header_heart_count font-[Inter] text-base font-black"
+              >0</span
+            >
             <img class="w-8 h-8" src="./assets/heart.png" alt="" />
           </div>
           <div
             class="w-32 h-14 flex gap-3 items-center justify-center bg-[#41FF6B1A] rounded-[50px]"
           >
-            <span class="font-[Inter] text-base font-black">100</span>
+            <span id="coin_count" class="font-[Inter] text-base font-black"
+              >100</span
+            >
             <img class="w-8 h-8" src="./assets/coin.png" alt="" />
           </div>
           <div
             class="w-32 h-14 flex gap-3 items-center justify-center bg-[#00A63E] text-white text-base font-semibold rounded-[50px]"
           >
-            <span class="font-[Inter]">0</span>
+            <span id="copy_count" class="font-[Inter]">0</span>
             <p>Copy</p>
           </div>
         </div>
@@ -76,7 +82,7 @@
       <div class="bg-[#F5FFF6] pt-12 pb-24">
         <section class="container mx-auto flex flex-stretch gap-7">
           <!-- cart section start -->
-          <div class="w-9/12 grid grid-cols-3 gap-7">
+          <div id="get_all_elements" class="w-9/12 grid grid-cols-3 gap-7">
             <!-- cart 1 start -->
             <div class="p-8 rounded-xl shadow-sm bg-white">
               <div class="flex items-center justify-between">
@@ -85,15 +91,20 @@
                 >
                   <img class="w-8 h-8" src="./assets/emergency.png" alt="" />
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <i
+                  id=""
+                  class="heart_icon fa-regular fa-heart text-2xl cursor-pointer"
+                ></i>
               </div>
-              <h2 class="font-[Hind_Madurai] text-2xl font-bold">
+              <h2 class="font-[Hind_Madurai] text-2xl font-bold hotline_title">
                 National Emergency Number
               </h2>
               <p class="font-[Roboto] text-lg mb-6 text-[#5C5C5C]">
                 National Emergency
               </p>
-              <h3 class="font-[Roboto] text-4xl font-bold mb-2">999</h3>
+              <h3 class="font-[Roboto] text-4xl font-bold mb-2 hotline_number">
+                999
+              </h3>
               <span
                 class="font-[Hind_Madurai] text-[#5C5C5C] text-lg bg-[#F2F2F2] py-2 px-4 rounded-3xl"
                 >All</span
@@ -118,13 +129,17 @@
                 >
                   <img class="w-8 h-8" src="./assets/police.png" alt="" />
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <i
+                  class="heart_icon fa-regular fa-heart text-2xl cursor-pointer"
+                ></i>
               </div>
-              <h2 class="font-[Hind_Madurai] text-2xl font-bold">
+              <h2 class="font-[Hind_Madurai] text-2xl font-bold hotline_title">
                 Police Helpline Number
               </h2>
               <p class="font-[Roboto] text-lg mb-6 text-[#5C5C5C]">Police</p>
-              <h3 class="font-[Roboto] text-4xl font-bold mb-2">999</h3>
+              <h3 class="font-[Roboto] text-4xl font-bold mb-2 hotline_number">
+                999
+              </h3>
               <span
                 class="font-[Hind_Madurai] text-[#5C5C5C] text-lg bg-[#F2F2F2] py-2 px-4 rounded-3xl"
                 >Police</span
@@ -149,15 +164,19 @@
                 >
                   <img class="w-8 h-8" src="./assets/ambulance.png" alt="" />
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-heart text-2xl cursor-pointer"></i>
               </div>
-              <h2 class="font-[Hind_Madurai] text-2xl font-bold">
+              <h2
+                class="font-[Hind_Madurai] text-2xl font-bold hotline_title hotline_title"
+              >
                 Fire Service Number
               </h2>
               <p class="font-[Roboto] text-lg mb-6 text-[#5C5C5C]">
                 Fire Service
               </p>
-              <h3 class="font-[Roboto] text-4xl font-bold mb-2">999</h3>
+              <h3 class="font-[Roboto] text-4xl font-bold mb-2 hotline_number">
+                999
+              </h3>
               <span
                 class="font-[Hind_Madurai] text-[#5C5C5C] text-lg bg-[#F2F2F2] py-2 px-4 rounded-3xl"
                 >Fire</span
@@ -182,13 +201,15 @@
                 >
                   <img class="w-8 h-8" src="./assets/ambulance.png" alt="" />
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-heart text-2xl cursor-pointer"></i>
               </div>
-              <h2 class="font-[Hind_Madurai] text-2xl font-bold">
+              <h2 class="font-[Hind_Madurai] text-2xl font-bold hotline_title">
                 Ambulance Service
               </h2>
               <p class="font-[Roboto] text-lg mb-6 text-[#5C5C5C]">Ambulance</p>
-              <h3 class="font-[Roboto] text-4xl font-bold mb-2">1994-999999</h3>
+              <h3 class="font-[Roboto] text-4xl font-bold mb-2 hotline_number">
+                1994-999999
+              </h3>
               <span
                 class="font-[Hind_Madurai] text-[#5C5C5C] text-lg bg-[#F2F2F2] py-2 px-4 rounded-3xl"
                 >Health</span
@@ -213,15 +234,17 @@
                 >
                   <img class="w-8 h-8" src="./assets/emergency.png" alt="" />
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-heart text-2xl cursor-pointer"></i>
               </div>
-              <h2 class="font-[Hind_Madurai] text-2xl font-bold">
+              <h2 class="font-[Hind_Madurai] text-2xl font-bold hotline_title">
                 Women & Child Helpline
               </h2>
               <p class="font-[Roboto] text-lg mb-6 text-[#5C5C5C]">
                 Women & Child Helpline
               </p>
-              <h3 class="font-[Roboto] text-4xl font-bold mb-2">109</h3>
+              <h3 class="font-[Roboto] text-4xl font-bold mb-2 hotline_number">
+                109
+              </h3>
               <span
                 class="font-[Hind_Madurai] text-[#5C5C5C] text-lg bg-[#F2F2F2] py-2 px-4 rounded-3xl"
                 >Help</span
@@ -246,15 +269,17 @@
                 >
                   <img class="w-8 h-8" src="./assets/emergency.png" alt="" />
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-heart text-2xl cursor-pointer"></i>
               </div>
-              <h2 class="font-[Hind_Madurai] text-2xl font-bold">
+              <h2 class="font-[Hind_Madurai] text-2xl font-bold hotline_title">
                 Anti-Corruption Helpline
               </h2>
               <p class="font-[Roboto] text-lg mb-6 text-[#5C5C5C]">
                 Anti-Corruption
               </p>
-              <h3 class="font-[Roboto] text-4xl font-bold mb-2">106</h3>
+              <h3 class="font-[Roboto] text-4xl font-bold mb-2 hotline_number">
+                106
+              </h3>
               <span
                 class="font-[Hind_Madurai] text-[#5C5C5C] text-lg bg-[#F2F2F2] py-2 px-4 rounded-3xl"
                 >Govt.</span
@@ -279,15 +304,17 @@
                 >
                   <img class="w-8 h-8" src="./assets/emergency.png" alt="" />
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-heart text-2xl cursor-pointer"></i>
               </div>
-              <h2 class="font-[Hind_Madurai] text-2xl font-bold">
+              <h2 class="font-[Hind_Madurai] text-2xl font-bold hotline_title">
                 Electricity Helpline
               </h2>
               <p class="font-[Roboto] text-lg mb-6 text-[#5C5C5C]">
                 Electricity Outage
               </p>
-              <h3 class="font-[Roboto] text-4xl font-bold mb-2">16216</h3>
+              <h3 class="font-[Roboto] text-4xl font-bold mb-2 hotline_number">
+                16216
+              </h3>
               <span
                 class="font-[Hind_Madurai] text-[#5C5C5C] text-lg bg-[#F2F2F2] py-2 px-4 rounded-3xl"
                 >Electricity</span
@@ -312,13 +339,15 @@
                 >
                   <img class="w-8 h-8" src="./assets/emergency.png" alt="" />
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-heart text-2xl cursor-pointer"></i>
               </div>
-              <h2 class="font-[Hind_Madurai] text-2xl font-bold">
+              <h2 class="font-[Hind_Madurai] text-2xl font-bold hotline_title">
                 Brac Helpline
               </h2>
               <p class="font-[Roboto] text-lg mb-6 text-[#5C5C5C]">Brac</p>
-              <h3 class="font-[Roboto] text-4xl font-bold mb-2">16445</h3>
+              <h3 class="font-[Roboto] text-4xl font-bold mb-2 hotline_number">
+                16445
+              </h3>
               <span
                 class="font-[Hind_Madurai] text-[#5C5C5C] text-lg bg-[#F2F2F2] py-2 px-4 rounded-3xl"
                 >NGO</span
@@ -343,15 +372,17 @@
                 >
                   <img class="w-8 h-8" src="./assets/emergency.png" alt="" />
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-heart text-2xl cursor-pointer"></i>
               </div>
-              <h2 class="font-[Hind_Madurai] text-2xl font-bold">
+              <h2 class="font-[Hind_Madurai] text-2xl font-bold hotline_title">
                 Bangladesh Railway Helpline
               </h2>
               <p class="font-[Roboto] text-lg mb-6 text-[#5C5C5C]">
                 Bangladesh Railway
               </p>
-              <h3 class="font-[Roboto] text-4xl font-bold mb-2">163</h3>
+              <h3 class="font-[Roboto] text-4xl font-bold mb-2 hotline_number">
+                163
+              </h3>
               <span
                 class="font-[Hind_Madurai] text-[#5C5C5C] text-lg bg-[#F2F2F2] py-2 px-4 rounded-3xl"
                 >Travel</span
@@ -381,16 +412,20 @@
                 <p class="text-[Roboto]">Call History</p>
               </div>
               <button
+                id="clear_btn"
                 class="w-28 h-14 flex gap-3 items-center justify-center bg-[#00A63E] text-white text-base font-semibold rounded-[50px] cursor-pointer"
               >
                 Clear
               </button>
             </div>
+            <div id="call_history"></div>
           </aside>
           <!-- right side history section end -->
         </section>
       </div>
     </main>
+    <!-- menualy js added -->
+    <script src="./script.js"></script>
     <!-- fonawesome kit -->
     <script
       src="https://kit.fontawesome.com/bc02ba23a8.js"
